@@ -1,1 +1,26 @@
-
+pipeline {
+     agent any 
+ stages { 
+   stage {"source code taking "}
+      step { 
+          #git url need to enter 
+    }
+}
+   Stage { "Building"}
+    step { 
+       #Echo buid the job
+}
+}
+  stage {"testing"}
+    step 
+      #Echo test the job 
+}
+}
+    stage{"Deploy"
+    step 
+     # Echo deploy the build 
+}
+}
+}
+}
+    
